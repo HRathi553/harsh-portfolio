@@ -30,6 +30,36 @@ export class ProyectsComponent implements OnInit {
 
     this.projects = [
       {
+        "Title": "Auto Apply Pro",
+        "Description": "An advanced automation tool designed to streamline the job application process by intelligently automating submissions across careers pages. It leverages <span class='underline'>Cloudflare Workers</span> and <span class='underline'>process automation</span> to save time and increase application reach seamlessly.",
+        "demoLink": "https://autoapplypro.app-deployment.workers.dev/",
+        "date": "March 2026",
+        "imgs": [
+          "assets/images/autoapplypro/autoapplypro_0.png",
+          "assets/images/autoapplypro/autoapplypro_1.png",
+          "assets/images/autoapplypro/autoapplypro_2.png",
+          "assets/images/autoapplypro/autoapplypro_3.png",
+          "assets/images/autoapplypro/autoapplypro_4.png",
+          "assets/images/autoapplypro/autoapplypro_5.png",
+          "assets/images/autoapplypro/autoapplypro_6.png",
+          "assets/images/autoapplypro/autoapplypro_7.png",
+        ],
+        "Technologies": ["Automation", "Cloudflare Workers", "JavaScript"]
+      },
+      {
+        "Title": "Dilli Ki Baat",
+        "Description": "An interactive dashboard designed to provide a comprehensive, data-driven overview of various constituencies across Delhi. Shows dynamic scores for key civic metrics like <span class='underline'>Water Quality</span>, <span class='underline'>Electricity Outages</span>, <span class='underline'>Infrastructure</span>, and <span class='underline'>Air Quality (AQI)</span>, mapped to specific locations using <span class='underline'>Leaflet</span> and <span class='underline'>CartoDB Voyager</span> tiles.",
+        "demoLink": "https://dilli-ki-baat.vercel.app/",
+        "date": "Jan 2026",
+        "imgs": [
+          "assets/images/dillikibaat/dillikibaat_1.png",
+          "assets/images/dillikibaat/dillikibaat_2.png",
+          "assets/images/dillikibaat/dillikibaat_3.png",
+          "assets/images/dillikibaat/dillikibaat_4.png",
+        ],
+        "Technologies": ["Angular", "Node.js", "PostgreSQL", "Leaflet", "Vercel", "Render"]
+      },
+      {
         "Title": "Portfolio Website",
         "Description": "Designed and developed a portfolio website using <span class='underline'>Angular 13</span>, showcasing a curated collection of projects and accomplishments. Leveraged Angular's powerful features to create a user-friendly and responsive platform that demonstrates technical skills, creativity, and a strong commitment to professionalism",
         "demoLink": "https://cafeweb.z13.web.core.windows.net/home",
@@ -44,7 +74,7 @@ export class ProyectsComponent implements OnInit {
       {
         "Title": "Cafe Management App",
         "Description": "This project featured <span class='underline'>JWT token authentication</span>, <span class='underline'>role-based access</span> control, and <span class='underline'>Google OAuth2</span> for secure email capabilities. Integrated <span class='underline'>JQuery & Bootstrap</span> for a polished user interface & implemented <span class='underline'>lazy loading</span> for optimized performance. <span class='underline'>Router guards & animations</span> were used for a seamless user experience. Also developed <span class='underline'>reactive forms</span>, handled <span class='underline'>PDF generation & downloads</span>, & leveraged <span class='underline'>dependency injection & RxJS</span> for efficient asynchronous operations with <span class='underline'>Interceptors</span> for handling HTTP requests and responses. This project seamlessly integrated <span class='underline'>Angular</span> with <span class='underline'>Node.js</span> & <span class='underline'>PostgreSQL</span>, managing product categories, products, order, view-bill and user-mgmt components for streamlined cafe management.",
-        "demoLink": "https://cafeweb.z13.web.core.windows.net/home",
+        "demoLink": "https://cafe-web-app-indol.vercel.app/",
         "date": "(May 2023 - Sept 2023)",
         "imgs": [
           "assets/images/cafe/cafe1.png",
