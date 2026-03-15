@@ -100,8 +100,9 @@ export class ProyectsComponent implements OnInit {
       //   "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
       // },
       {
+        // , which successfully secured funding of <span class='underline'>2.7 million</span> from Japanese investors
         "Title": "Tankhapay",
-        "Description": "Significantly contributed to frontend development of an <span class='underline'>in-house webapp</span> for <span class='underline'>TankhaPay</span>, a product of <span class='underline'>Akal Infomation Sys Pvt Ltd</span>, which successfully secured funding of <span class='underline'>2.7 million</span> from Japanese investors. The platform efficiently manages employer and employee profiles, catering to a diverse workforce, including gig workers, blue-collar, and white-collar employees, streamlining the registration process and enhancing workforce management",
+        "Description": "Significantly contributed to frontend development of an <span class='underline'>in-house webapp</span> for <span class='underline'>TankhaPay</span>, a product of <span class='underline'>Akal Infomation Sys Pvt Ltd</span>. The platform efficiently manages employer and employee profiles, catering to a diverse workforce, including gig workers, blue-collar, and white-collar employees, streamlining the registration process and enhancing workforce management",
         "demoLink": "https://theprint.in/ani-press-releases/tankhapay-developed-by-akal-information-systems-ltd-gets-2-7-million-usd-funding-from-japanese-investors/1638984/",
         "date": "Aug 2022 - Present",
         "imgs": [
